@@ -57,3 +57,13 @@ Se crearon las siguientes Vlans:
 ### Escenario 3
 ![image](images/port-channel.png)
 ![image](images/pvstp.png)
+
+### Escenario 4
+![image](images/port-channel-pagp.png)
+![image](images/mstp.png)
+### Escenario 5
+![image](images/port-channel-pagp.png)
+![image](images/rstp.png)
+### Escenario 6
+![image](images/port-channel-pagp.png)
+![image](images/pvstp.png)
