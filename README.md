@@ -13,10 +13,11 @@
 - *password*: Grupo16
 
 ### Vlans creadas
-#### Administración - Vlan 16
-#### Profesores - Vlan 26
-#### Clase A - Vlan 36
-#### Clase B - Vlan 46
+
+- **Administración** - Vlan 16
+- **Profesores** - Vlan 26
+- **Clase A** - Vlan 36
+- **Clase B** - Vlan 46
 
 ## Direcciones de Red
 
