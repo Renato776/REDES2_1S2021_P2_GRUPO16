@@ -9,15 +9,33 @@
 
 ## VTP
 
-- *dominio*: Grupo16
-- *password*: Grupo16
+- conf t
+- vtp domain Grupo16
+- vtp password Grupo16
+- vtp mode server/client (según aplique)
+- end
+
+Confirmamos la configuración del VTP con el comando sh vtp status
+
+![image](images/vtp.png)
 
 ### Vlans creadas
+
+Se crearon 4 Vlans para manejar las redes internas de la topología. Los comandos para configurar las Vlans
+son los siguientes:
+-  conf t
+-  vlan {numero}
+-  name {nombre}
+-  end
+
+Se crearon las siguientes Vlans:
 
 - **Administración** - Vlan 16
 - **Profesores** - Vlan 26
 - **Clase A** - Vlan 36
 - **Clase B** - Vlan 46
+
+![image](images/vlans.png)
 
 ## Direcciones de Red
 
@@ -28,10 +46,14 @@
 | 36 | 192.168.20.128 | 192.168.56.129 | 192.168.56.190 | 192.168.56.191 |192.168.56.129 | 255.255.255.192 |
 | 46 | 192.168.10.192 | 192.168.56.193 | 192.168.10.254 | 192.168.56.255 |192.168.56.193 | 255.255.255.192 |
 
-## Spanning Tree Protocols
+## Escenario
 
-### STP
-### RSTP
-### PVSTP
-
-## Port Channels
+### Escenario 1
+![image](images/port-channel.png)
+![image](images/mstp.png)
+### Escenario 2
+![image](images/port-channel.png)
+![image](images/rstp.png)
+### Escenario 3
+![image](images/port-channel.png)
+![image](images/pvstp.png)
